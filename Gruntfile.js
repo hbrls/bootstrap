@@ -155,8 +155,8 @@ module.exports = function (grunt) {
       },
       core: {
         options: {
-          sourceMapURL: '<%= pkg.name %>.css.map',
-          sourceMapFilename: 'dist/css/<%= pkg.name %>.css.map'
+          // sourceMapURL: '<%= pkg.name %>.css.map',
+          // sourceMapFilename: 'dist/css/<%= pkg.name %>.css.map'
         },
         src: 'less/bootstrap.less',
         dest: 'dist/css/<%= pkg.name %>.css'
@@ -235,8 +235,8 @@ module.exports = function (grunt) {
     cssmin: {
       options: {
         compatibility: 'ie8',
-        sourceMap: true,
-        sourceMapInlineSources: true,
+        // sourceMap: true,
+        // sourceMapInlineSources: true,
         level: {
           1: {
             specialComments: 'all'
